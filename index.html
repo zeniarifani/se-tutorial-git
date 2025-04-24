@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Git Tutorial Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      background: white;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 8px;
+    }
+    h1, h2 {
+      color: #ffffff;
+    }
+    .exercise {
+      background: #e0f0ff;
+      padding: 15px;
+      border-radius: 6px;
+    }
+    code {
+      background: #eee;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Software Engineering Git Practice</h1>
+  </header>
+  <div class="container">
+    <p>Welcome to the Git practical session. This webpage is part of your hands-on tutorial to understand Git and GitHub workflows.</p>
+
+    <section class="exercise">
+      <h2>Your Task</h2>
+      <ol>
+        <li>Fork this repository (<a href="https://github.com/alfhisa/se-tutrial-git">https://github.com/alfhisa/se-tutrial-git</a>)</li>
+        <li>Clone the forked repository
+          <ul>
+            <li><code>git clone https://github.com/alfhisa/se-tutrial-git.git</code></li>
+            <li><code>cd se-tutrial-git</code></li>
+          </ul>
+        </li>
+        <li>Create a new branch
+          <ul>
+            <li><code>git checkout -b latihan-git</code> <em>(you may name the branch as you like)</em></li>
+          </ul>
+        </li>
+        <li>Edit this file (index.html) and add your name and insight.
+          <ul>
+            <li><strong>Name:</strong> [Your Name]</li>
+            <li><strong>Interesting point:</strong> [Your Input]</li>
+          </ul>
+        </li>
+        <li>Commit and Push your changes
+          <ul>
+            <li><code>git add .</code></li>
+            <li><code>git commit -m "Edit the index.html file"</code> <em>(you may change the message)</em></li>
+            <li><code>git push origin latihan-git</code> <em>(adjust with your branch name)</em></li>
+          </ul>
+        </li>
+        <li>Open a pull request on GitHub
+          <ul>
+            <li>Visit your forked repo</li>
+            <li>Click "Compare & pull request"</li>
+            <li>Fill out the title and description</li>
+            <li>Submit the pull request</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+  </div>
+  <footer>
+    <p>&copy; 2025 BINUS University - Software Engineering Tutorial</p>
+  </footer>
+</body>
+</html>

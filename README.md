@@ -21,8 +21,8 @@ Follow the steps below to complete your Git exercise:
 2. **Clone the forked repository**  
    Open your terminal and run:
    ```bash
-   git clone https://github.com/your-username/se-tutrial-git.git
-   cd se-tutrial-git
+   git clone https://github.com/your-username/se-tutorial-git.git
+   cd se-tutorial-git
    ```
 
 3. **Create a new branch**  
